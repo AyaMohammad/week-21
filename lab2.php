@@ -18,10 +18,10 @@
   <div class="container">
   
   <?php
+
   date_default_timezone_set('Europe/Amsterdam');
   $hour = date("H");
   $minute = date("i");
-  $seconds = date('s');
   if ($hour >= "6" && $hour < "12") {
       echo '<body class="morning">';
      $dagdeel = 'morgen';

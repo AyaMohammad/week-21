@@ -3,7 +3,7 @@
 <head>
 
 <meta http-equiv="refresh" content="0.9">
-    <title>TIME</title>
+    <title> TIME </title>
     <link rel="stylesheet" href="opdracht.css">
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 </head>
