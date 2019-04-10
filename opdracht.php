@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 </head>
 <body>  
+    <?php include 'menu.php'; ?>
+    <?php include 'footer.php'; ?>
+
 
     <?php
         date_default_timezone_set('Europe/Amsterdam');
@@ -19,7 +22,7 @@
         }elseif ($hour >= "12" && $hour < "18") {
             echo '<body class="middag">';
            $dagdeel = 'middag';
-        }elseif ($hour >= "18" && $hour < "00") {
+        }elseif ($hour >= "18" && $hour < "24") {
             echo '<body class="avond">';
            $dagdeel = 'avond';
         }elseif ($hour >= "00" && $hour < "6") {
@@ -29,5 +32,7 @@
         echo '<h1>','Goede ',$dagdeel,'!','</h1>';
         echo '<h1>','Het is nu ',$hour,":",$minute,'</h1>'; 
     ?>
+
+
 </body>
 </html>
